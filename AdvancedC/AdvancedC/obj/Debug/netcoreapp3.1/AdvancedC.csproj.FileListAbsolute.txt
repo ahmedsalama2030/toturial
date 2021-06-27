@@ -1,0 +1,15 @@
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\bin\Debug\netcoreapp3.1\AdvancedC.exe
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\bin\Debug\netcoreapp3.1\AdvancedC.deps.json
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\bin\Debug\netcoreapp3.1\AdvancedC.runtimeconfig.json
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\bin\Debug\netcoreapp3.1\AdvancedC.runtimeconfig.dev.json
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\bin\Debug\netcoreapp3.1\AdvancedC.dll
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\bin\Debug\netcoreapp3.1\AdvancedC.pdb
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\obj\Debug\netcoreapp3.1\AdvancedC.csprojAssemblyReference.cache
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\obj\Debug\netcoreapp3.1\AdvancedC.AssemblyInfoInputs.cache
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\obj\Debug\netcoreapp3.1\AdvancedC.AssemblyInfo.cs
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\obj\Debug\netcoreapp3.1\AdvancedC.csproj.CoreCompileInputs.cache
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\obj\Debug\netcoreapp3.1\AdvancedC.dll
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\obj\Debug\netcoreapp3.1\AdvancedC.pdb
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\obj\Debug\netcoreapp3.1\AdvancedC.genruntimeconfig.cache
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Core\source\repos\AdvancedC\AdvancedC\obj\Debug\netcoreapp3.1\AdvancedC.csproj.CopyComplete

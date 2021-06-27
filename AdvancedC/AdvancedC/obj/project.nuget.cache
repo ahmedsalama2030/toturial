@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QQba2FcbWHjLKCZLDya1CcQDe20d0Fv1X70+UkjIWmTZadbXw13Z+LT7Ndo9g/ohoDtUHE4bFiOanAwSSQOK7A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Core\\source\\repos\\AdvancedC\\AdvancedC\\AdvancedC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Core\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

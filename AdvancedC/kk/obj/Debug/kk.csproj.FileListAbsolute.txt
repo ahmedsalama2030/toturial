@@ -1,0 +1,14 @@
+C:\Users\Core\source\repos\AdvancedC\kk\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Core\source\repos\AdvancedC\kk\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Core\source\repos\AdvancedC\kk\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Core\source\repos\AdvancedC\kk\bin\Debug\kk.dll
+C:\Users\Core\source\repos\AdvancedC\kk\bin\Debug\kk.pdb
+C:\Users\Core\source\repos\AdvancedC\kk\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Core\source\repos\AdvancedC\kk\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Core\source\repos\AdvancedC\kk\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Core\source\repos\AdvancedC\kk\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Core\source\repos\AdvancedC\kk\obj\Debug\kk.csprojAssemblyReference.cache
+C:\Users\Core\source\repos\AdvancedC\kk\obj\Debug\kk.csproj.CoreCompileInputs.cache
+C:\Users\Core\source\repos\AdvancedC\kk\obj\Debug\kk.csproj.CopyComplete
+C:\Users\Core\source\repos\AdvancedC\kk\obj\Debug\kk.dll
+C:\Users\Core\source\repos\AdvancedC\kk\obj\Debug\kk.pdb

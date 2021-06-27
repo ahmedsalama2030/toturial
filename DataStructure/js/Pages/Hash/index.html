@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+     <script type="module" >
+       import {HashTable  } from "../../class/hashtable/hashTable.js";
+       let hash=new HashTable(5);
+      hash.Add(1,'a');
+      hash.Add(2,'b');
+      hash.Add(3,'c');
+      hash.Add(4,'d');
+      hash.Add(5,'e');
+      hash.Add(10,'g');
+      hash.Add(15,'g');
+      hash.Print();
+
+      let result=hash.search(1);
+      let result33=hash.search(13);
+      console.log(result?"found":"not found");
+      console.log(result33?"found":"not found");
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>design_pattern</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="design pattern.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Behavoir Pattern\visitor\problem\interfaces\" />
+    <Folder Include="structure pattern\AdapterPattern\" />
+  </ItemGroup>
+
+</Project>

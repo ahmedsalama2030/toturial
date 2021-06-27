@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stack</title>
+</head>
+
+<body style="text-align: center;">
+
+    <textarea id="txt" rows="10" cols="40"></textarea>
+    <div>
+        <button id="back"> back</button>
+        <button id="forward"> forward</button>
+
+    </div>
+
+    <script>
+
+        class stack extends Array {
+       
+            constructor() { super(); }
+
+            push(data) {
+                super.push(data)
+            }
+            pop() {
+                if (this.length === 0) return -1;
+                return super.pop()
+            }
+            display() {
+                for (let i = this.length - 1; i >= 0; i--) {
+                    console.log(this[i])
+                }
+            }
+            peek() {
+                if (this.length === 0) throw new Error("not thing pop");
+                return this[this.length - 1];
+            }
+            getlength() {
+                return this.length
+            };
+
+        }
+
+        let backStack = new stack();
+        let forwardStack = new stack();
+        let forward = document.getElementById("forward");
+        let back = document.getElementById("back");
+        let txt = document.getElementById("txt");
+        
+        let valueTxt=txt.value;
+        if (valueTxt==='' || txt.value===null){
+            back.disabled = true;
+            forward.disabled = true;
+        }
+        else{
+            backStack.push(valueTxt);
+            back.disabled = false;
+            forward.disabled = true;
+        }
+
+        txt.addEventListener("keyup", (e) => {
+            backStack.push(e.target.value);
+            back.disabled = false;
+        })
+        back.addEventListener("click", (e) => {
+            let result = backStack.pop();
+            console.log(result);
+            if (result === -1)
+                back.disabled = true;
+            else {
+                console.log(result);
+                txt.value = result;
+                forwardStack.push(result);
+                back.disabled = false;
+                forward.disabled = false;
+
+            }
+
+
+        })
+        forward.addEventListener("click", (e) => {
+            let result = forwardStack.pop();
+            if (result === -1)
+                forward.disabled = true;
+            else {
+                txt.value = result;
+                backStack.push(result);
+                forward.disabled = false;
+                back.disabled = false;
+
+            }
+
+        })
+
+
+    </script>
+</body>
+
+</html>

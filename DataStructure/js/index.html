@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data structure</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container text-capitalize">
+        <h1 class="text-center"> <i class="fas fa-search text-danger"></i>search</h1>
+         <div class="border">
+             <div class="row p-5">
+                 <div class="col-8">
+            <div>
+              <span>enter search</span>  
+              <input id="search-text" class="form-control w-50 d-inline" type="search">
+              <button id="search-btn" class="btn btn-success"><i class="fas fa-search  "></i></button>
+
+            </div>
+             
+            <div class="row my-3">
+            <div class="border p-3 col-4">
+                <h4>Linear search</h4>
+                <p class="text-bold n">result  <span class="text-danger mx-5" id="linear-result"> </span></p> 
+             
+                <p class="text-bold ">Count   <span class="text-danger mx-5" id="linear-count"> </span></p>
+            </div>
+            <div class="border p-3 col-4">
+                <h4>binary search</h4>
+                <p class="text-bold n">result  <span class="text-danger mx-5" id="binary-result"> </span></p> 
+             
+                <p class="text-bold ">Count   <span class="text-danger mx-5" id="binary-count"> </span></p>
+            </div>
+            <div class="border p-3 col-4">
+                <h4>interpolatin search</h4>
+                <p class="text-bold n">result  <span class="text-danger mx-5" id="inter-result"> </span></p> 
+             
+                <p class="text-bold ">Count   <span class="text-danger mx-5" id="inter-count"> </span></p>
+            </div>
+        </div>
+           
+        </div>
+        
+            <div class="col-4  ">
+                <p class="h2">Menu search</p>
+                 <ul id="menu-search" class="  overflow-scroll w-50  border-1"  style="height: 300px; " >
+                     
+                 </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="index.js" type="module"></script>
+</body>
+</html>

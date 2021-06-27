@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data structure</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container text-capitalize">
+        <h1 class="text-center"> <i class="fas fa-sort text-danger"></i>sort</h1>
+         <div class="border">
+             <div class="row p-5">
+                 <div class="col-12">
+            <div>
+                 <select id="sort-btn"  class="form-select w-25" aria-label="Default select example">
+                    <option value="bubble" selected>select sort</option>
+                    <option value="bubble"  >bubble</option>
+                    <option value="merge">merge</option>
+                    <option value="heap">heap</option>
+                    <option value="quick">Quick</option>
+                  </select>
+            </div>
+             
+            <div class="row my-3">
+            <div class="border p-3 col-3">
+                <h4>Bubble sort</h4>
+              
+                 <p class="text-bold ">Big O   <span class="text-danger mx-5"  > O(N)<sup>2 </sup></span></p>
+            </div>
+            <div class="border p-3 col-3">
+                <h4>Merge sort  </h4>
+              
+                <p class="text-bold ">Big O   <span class="text-danger mx-5"  > O(NlogN)<span></p>
+            </div>
+            <div class="border p-3 col-3">
+                <h4>heap sort</h4>
+              
+                <p class="text-bold ">Big O   <span class="text-danger mx-5"  > O(NlogN)<span></p>
+                </div>
+            <div class="border p-3 col-3">
+                <h4>quick sort</h4>
+              
+                <p class="text-bold ">Count   <span class="text-danger mx-5" id="quick-count"> </span></p>
+            </div>
+        </div>
+           
+        </div>
+        
+            
+        </div>
+
+        <div>
+            <p class="px-4">  original sorce</p>
+            <div class="p-3" id="original-source"> 
+             </div>
+
+        </div>
+        <div>
+            <p class="px-4">  sort sorce</p>
+            <div class="p-3" id="result-sort" > 
+                
+            </div>
+
+        </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="sort.js" type="module"></script>
+</body>
+</html>
